@@ -1,0 +1,1 @@
+﻿class GameOver extends MovieClip{	}

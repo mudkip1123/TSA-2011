@@ -1,0 +1,1 @@
+﻿class Car_Left extends CAR {}
