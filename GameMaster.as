@@ -1,0 +1,1 @@
+﻿class GameMaster extends MovieClip{	}			
