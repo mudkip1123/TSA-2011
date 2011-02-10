@@ -1,0 +1,1 @@
+﻿class GameOver extends MovieClip{	function onEnterFrame()	{		if (Key.isDown(Key.SPACE) && _root.Master.gameOver != 1)		{			this.removeMovieClip()		}	}}
