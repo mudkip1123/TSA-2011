@@ -1,0 +1,1 @@
+﻿class FirstAid extends MovieClip {	var speed;		function onLoad() {		speed = 6;	}		function onEnterFrame() {		_y += speed;				if (this.hitTest(_root.Car)) {			_root.Car.healthy = 1;			this.removeMovieClip();		}	}}
