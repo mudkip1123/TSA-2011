@@ -1,1 +1,1 @@
-﻿class BonusStar extends MovieClip {	}
+﻿class BonusStar extends MovieClip {		var speed;		function onLoad() {		speed = 6;	}		function onEnterFrame() {		this._y += 6;				if (this._y > 500) {			this.removeMovieClip();		}	}}
