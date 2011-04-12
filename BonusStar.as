@@ -1,1 +1,1 @@
-﻿class BonusStar extends MovieClip {		var speed;		function onLoad() {		speed = 6;	}		function onEnterFrame() {		this._y += 6;				if (this._y > 500) {			this.removeMovieClip();		}	}}
+﻿class BonusStar extends MovieClip {		var speed;		function onLoad() {		speed = 10;	}		function onEnterFrame() {		this._y += speed;				if (this._y > 500) {			this.removeMovieClip();		}				if (this.hitTest(_root.Car)) {			this.removeMovieClip();			_root.Master.updateStars(1);			_root.Master.updateScore(50);		}	}}
